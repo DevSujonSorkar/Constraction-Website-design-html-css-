@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.hr-style {
+    border: 3px solid #1202a1;
+    border-bottom: none;
+    width: 60px;
+    margin: 4px 0px 3px 58px;
+}
+
+.btn-class {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+}
+
+.btn-class:hover{
+    background-color: #1202a1;
+    border: 0;
+}
+/* common css end */
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.main-container{
+    background-image: url(img/header\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.header-menu{
+    width: 100%;
+    height: 93px;
+}
+
+.header-menu-left {
+    width: 48%;
+    float: left;
+    margin-top: 13px;
+    margin-left: 23px;
+}
+
+.header-menu-left input[type="text"] {
+    width: 81px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.header-menu-right{
+    width: 50%;
+    float: left;
+}
+
+.header-menu-right ul{
+    text-align: center;
+}
+.header-menu-right ul li{
+    display: inline-block;
+}
+.header-menu-right ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header-menu-right ul li a:hover{
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+/* header menu end here */
+
+
+.banner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.banner-container-left{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.banner-container-left h5 {
+    margin-left: 59px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #1202a1;
+    text-transform: uppercase;
+}
+
+.banner-container-left h1 {
+    margin-left: 53px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner-container-left p {
+    width: 400px;
+    margin: auto;
+    font-weight: bold;
+    margin: 0px 3px 17px 50px;
+}
+
+.banner-container-right{
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.button-class {
+    margin-left: 50px;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1202a1;
+    border: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.button-class:hover{
+    background-color: gray;
+}
+
+
+
+.banner-sidebar-image {
+    width: 300px;
+    margin-bottom: -216px;
+    margin-left: 83px;
+}
+
+
+/* banner section end here */
+
+.banner-bottom-left{
+    width: 50%;
+    float: left;
+}
+
+.banner-bottom-left {
+    width: 45%;
+    float: left;
+    margin-top: 52px;
+    margin-left: 30px;
+}
+
+.banner-bottom-left h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1202a1;
+    margin-bottom: 4px;
+    margin-left: 44px;
+}
+
+.banner-bottom-left h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-left: 50px;
+}
+
+.banner-bottom-left p {
+    width: 330px;
+    margin-left: 50px;
+    margin-top: 14px;
+}
+
+.banner-bottom-right{
+    width: 50%;
+    float: left;
+    margin-bottom: 40px;
+}
+
+.banner-bottom-right p {
+    margin: 48px 0px 13px 42px;
+}
+
+/* banner bottom end here */
+
+.content-section{
+    
+}
+
+.content-section-left{
+    width: 31.3%;
+    float: left;
+    height: 250px;
+    background-image: url(img/team3\(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 10%;
+    margin-bottom: 30px;
+
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    
+}
+
+.content-section-left::after{
+
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, .5);
+     z-index: -1;
+
+}
+
+.content-section-left h2 {
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.content-section-left p {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.content-section-middle{
+    width: 31.3%;
+    float: left;
+    height: 250px;
+    background-image: url(img/team2\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 10%;
+    margin-bottom: 30px;
+
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    
+}
+
+.content-section-middle h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.content-section-middle p {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.content-section-middle::after{
+    content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, .5);
+     z-index: -1;
+}
+.content-section-right{
+    width: 31.3%;
+    float: left;
+    height: 250px;
+    background-image: url(img/team1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 10%;
+    margin-bottom: 30px;
+
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.content-section-right h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.content-section-right p {
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+.content-section-right::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+/* content section end here */
+
+.service-section {
+    margin-bottom: 30px;
+}
+
+
+.service-section-heading{
+    text-align: center;
+}
+
+.service-section-heading h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1202a1;
+}
+
+.service-section-heading h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-service-section{
+    margin-top: 50px;
+}
+
+.service-section-1 {
+    width: 31.3%;
+    float: left;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.service-section-1 h4 {
+    text-transform: uppercase;
+    margin-top: 27px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-section-1 p {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* service section end here */
+.protfolio-section {
+    margin-bottom: 30px;
+}
+
+.protfolio {
+    background-color: #db545a;
+    padding: 40px;
+}
+
+.portfolio-item-section-1 {
+    width: 25%;
+    float: left;
+   
+}
+
+
+
+.portfolio-item-section-1 img {
+    width: 293px;
+    margin-bottom: -4px;
+    
+}
+
+/* portfoli section end here */
+
+.map-section-left{
+    width: 50%;
+    float: left;
+}
+
+.map-section-left img {
+    width: 467px;
+    margin-top: 100px;
+}  
+
+
+.map-section-right{
+    width: 50%;
+    float: left;
+}
+
+.map-text-section {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.map-class {
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+/* map section end here */
+
+
+
+.progress-section {
+    background-image: url(img/progess\ bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40%;
+    padding: 85px 0;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.progress-section::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+
+.progress-section-1 h3 {
+    color: #1202a1;
+}
+
+
+.progress-section-1{
+    width: 25%;
+    float: left;
+    margin: auto;
+    text-align: center;
+}
+
+.progress-section-1 h3 {
+    color: #fff;
+    font-size: 21px;
+}
+
+
+.hr-pregress {
+    width: 67px;
+    border: 3px solid #1202a1;
+    border-bottom: none;
+    margin: auto;
+    margin-top: 22px;
+}
+
+/* progress section end here */
+
+
+.work-section {
+    margin: auto;
+    margin-bottom: 28px;
+}
+
+.work-section-1 {
+    width: 25%;
+    float: left;
+    margin-top: 59px;
+}
+
+.work-section-1 h3 {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1202a1;
+    margin: auto;
+}
+
+.work-section-1 p {
+    width: 184px;
+    margin: auto;
+    color: gray;
+}
+
+/* work section end here */
+
+.about-section {
+    margin-top: 58px;
+    background-color: #db545a;
+    height: 600px;
+    
+}
+
+.about-section-middle {
+    margin-top: 43px;
+    margin-left: 27px;
+}
+
+.about-section-text-1 {
+    border: 2px solid black;
+    margin-right: 10px;
+    width: 31.3%;
+    float: left;
+    padding: 16px;
+    text-align: center;
+    height: 239px;
+    padding-top: 35px;
+    color: #fff;
+}
+
+.service-section-heading {
+    text-align: center;
+    padding-top: 59px;
+}
+
+/* service section end here */
+
+.img-item-1 {
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: -34px;
+}
+
+/* client section end here */
+
+.item-section {
+    width: 100%;
+    height: 210px;
+    background-color: #f1c50e;
+    margin-bottom: 30px;
+}
+
+.item-1 {
+    width: 14%;
+    float: left;
+    text-align: center;
+    margin-top: 48px;
+    margin-left: 27px;
+}
+
+/* item section end here */
+
+.blog-section {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.blog-section-item-1 {
+    margin-top: 44px;
+    width: 31.3%;
+    float: left;
+}
+
+.blog-section-item-1 img {
+    width: 315px;
+    margin-left: 40px;
+}
+
+.blog-section-item-1 h5 {
+    margin-top: 20px;
+    margin-left: 52px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.blog-section-item-1 h6 {
+    margin-left: 54px;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.blog-section-item-1 p {
+    width: 296px;
+    margin: auto;
+    margin-left: 53px;
+}
+
+/* blog section end here */
+
+.blog-bottom {
+    background-color: #468ac9;
+    height: 240px;
+}
+
+.blog-bottom-left{
+    width: 70%;
+    float: left;
+}
+.blog-bottom-right{
+    width: 30%;
+    float: left;
+}
+
+.blog-bottom-left h1 {
+    color: #fff;
+    margin-left: -160px;
+    margin-top: 79px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.blog-bottom-left p {
+    text-align: center;
+    color: #fff;
+}
+
+.blog-bottom-right {
+    width: 30%;
+    float: left;
+    margin-top: 76px;
+}
+
+
+/* blog bottom end here */
+
+.banner-section {
+    background-image: url(img/protfolio\ item4\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 270px 0;
+    margin-bottom: 30px;
+    background-position: 43%;
+}
+
+
+.banner-text{}
+
+.banner-text h1 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* banner section end here */
+
+.banner-bottom-section{
+    height: 300px;
+    margin: auto;
+}
+
+
+/* banner bottom end here */
+
+.footer-text{
+    background: #000;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.footer-text-left{
+
+}
+.footer-text-right{}
+
+.footer-text-right a {
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.footer-text-left h1 {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+    margin-top: 7px;
+}
